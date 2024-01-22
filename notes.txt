@@ -1,0 +1,5 @@
+variable declaration rules
+----------------------------
+1. we cnanot use space between two words
+2. we cnanot use number start with a variable name like 30hello
+3. we cannot use special character in our variable name except underscore(_)
