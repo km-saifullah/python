@@ -11,9 +11,7 @@ if age>=18:
 else:
     print('Not eligable for vote')
 
-
 # if-elif
-
 mark =  int(input("Enter Your Marks: "))
 if mark>=80:
     print('GPA: A')
@@ -37,3 +35,25 @@ elif light == 'green':
 else:
     print('Wrong Input')
 
+# nested if-else
+number = int(input('Enter a number: '))
+if number % 2 ==0:
+    if number >= 0:
+        print(number, 'is even and positive')
+    else:
+        print(number,'is even but negative')
+else:
+    if number <=0:
+        print(number,'is odd and negative')
+    else:
+        print(number,'is odd but positive')
+
+# and operator
+if number >=0 and number % 2 == 0:
+    print(number, 'is positive and even')
+elif number >=0 and number % 2 != 0:
+    print(number, 'is positive and odd')
+elif number < 0 and number % 2 ==0:
+    print(number,'is negative and even number')
+else:
+    print(number, 'is negative and odd')
